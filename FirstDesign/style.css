@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100% ;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url("font/BebasNeue-Regular.ttf");
+    }
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('font/ProximaNova-Regular.otf');
+}
+
+.main {
+    background-color: #A7D1EF;
+    background-image: url("img/photo-hero.png"), url("img/img1.png");
+    background-repeat: no-repeat,no-repeat;
+    background-position: right 80px bottom,right bottom;
+    background-size: 47%,50%;
+    height: 100%;
+}
+
+.content{
+    padding-left: 77px;  
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.heading{
+    padding-top: 130px;
+    line-height: 80px;
+    font-size: 100px;
+    line-height: 68px;
+    color: #353B7D;
+
+}
+
+.sub-heading{
+    max-width: 283px;
+    height: 204px;
+    margin-top: 4rem;
+    font-size: 60px;
+    line-height: 68px;
+    color: #FFFFFF;
+    margin-bottom: 3rem;
+
+}
+
+.msg , .msg2{
+    font-size: 18px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+    font-family: 'Proxima Nova';
+}
+.msg{
+    max-width: 370px;
+}
+.msg2{
+    margin-top: 2rem;
+}
+
+.brand-name{
+    color: #F3453B;
+    margin-left: 5px;
+}
+
+.tap{
+    margin-left: 5px;
+}
+
+@media (max-width:400px){
+    .main {
+        background-color: #A7D1EF;
+        /* background-image: url("img/photo-hero.png"), url("img/img1.png");
+        background-repeat: no-repeat,no-repeat;
+        background-position: right 20px bottom,right bottom; */
+
+        background-image: url('img/girl.png');
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: 47%,50%;
+    }
+    
+    .content{
+        padding-left: 10%;  
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: 400;
+        text-align: left;
+    }
+    
+    .heading{
+        padding-top: 20%;
+        font-size: 100px;
+        line-height: 80px;
+        color: #353B7D;
+        text-align: center;
+    }
+    
+    .sub-heading{
+        width: 488.32px;
+        height: 204px;
+        font-size: 60px;
+        line-height: 4.2rem;
+        color: #FFFFFF;
+
+    }
+    
+    .msg , .msg2{
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 38px;
+        color: #FFFFFF;
+        font-family: 'Proxima Nova';
+        width: 350px;
+    }
+    .msg2{
+        margin-top: 1px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .brand-name{
+        color: #F3453B;
+        margin-left: 5px;
+    }
+    
+    .tap{
+        margin-left: 5px;
+    }
+}

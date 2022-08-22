@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 42.5%;
+    background-color: #A7D1EF;
+}
+
+img{
+    max-width: 100%;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url("font/BebasNeue-Regular.ttf");
+    }
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('font/ProximaNova-Regular.otf');
+}
+.main {
+    background-color: #A7D1EF;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    align-self: center;
+    margin-left: 7.6rem;
+    
+}
+
+.heading{
+    padding-top: 3rem;
+    line-height: 80px;
+    font-size: 10rem;
+    line-height: 3.8rem;
+    color: #353B7D;
+}
+
+.sub-heading{
+    max-width: 28rem;
+    font-size: 6rem;
+    line-height: 5rem;
+    color: #FFFFFF;
+    margin-top: 7rem;
+}
+
+.msg , .msg2{
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+    font-family: 'Proxima Nova';
+    margin-top: 4.8rem;
+}
+.brand-name{
+    color: #F3453B;
+    margin-left: 5px;
+}
+
+.tap{
+    margin-left: 5px;
+}
+
+/* @media  (min-width: 750px){
+    .main{
+        flex-direction: row;
+        justify-content: space-between;
+
+    }    
+}
+
+@media (max-width:700px){
+    img{
+        height: 100px;
+    }
+    
+    .right-banner{
+        position: relative;
+    }
+    .joker{
+        position: absolute;
+        right: 0;
+    }
+} */
